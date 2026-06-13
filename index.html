@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== SEO META TAGS ===== -->
+    <title>Ajay Jaiswar | English Lecturer & Educator</title>
+    <meta
+        name="description"
+        content="Portfolio of Ajay Jaiswar — Experienced English Lecturer, Educator, and Communication Skills Trainer specializing in English Literature, Spoken English, and Business Communication."
+    />
+    <meta name="author" content="Ajay Jaiswar" />
+    <meta
+        name="keywords"
+        content="Ajay Jaiswar, English Lecturer, Educator, Communication Skills Trainer, English Literature, Spoken English, Business Communication, Public Speaking"
+    />
+
+    <!-- Open Graph / Social sharing -->
+    <meta property="og:title" content="Ajay Jaiswar | English Lecturer & Educator" />
+    <meta
+        property="og:description"
+        content="Experienced English Lecturer and Communication Skills Trainer."
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- ===== FONTS (modern academic typography) ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+
+    <!-- ===== FONT AWESOME ICONS ===== -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+
+    <!-- ===== STYLES ===== -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- ============================================================
+         SKIP LINK (accessibility)
+    ============================================================= -->
+    <a href="#hero" class="skip-link">Skip to main content</a>
+
+    <!-- ============================================================
+         STICKY NAVIGATION BAR
+    ============================================================= -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-logo" aria-label="Go to home">
+                <span class="logo-mark">AJ</span>
+                <span class="logo-text">Ajay Jaiswar</span>
+            </a>
+
+            <!-- Mobile hamburger toggle -->
+            <button
+                class="nav-toggle"
+                id="navToggle"
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="navMenu"
+            >
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#publications" class="nav-link">Publications</a></li>
+                    <li><a href="#talks" class="nav-link">Talks &amp; Seminars</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ============================================================
+             1. HERO SECTION
+        ============================================================= -->
+        <section class="hero" id="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-container">
+                <div class="hero-text reveal">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Ajay Jaiswar</h1>
+                    <h2 class="hero-title">
+                        English Lecturer <span class="divider">|</span> Educator
+                        <span class="divider">|</span> Communication Skills Trainer
+                    </h2>
+                    <p class="hero-intro">
+                        To work sincerely and efficiently to produce outstanding results by
+                        applying my skills and experience to the best of my ability, while
+                        ensuring steady and mutual growth for the institute and students.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="assets/Ajay-Jaiswar-Resume-Professional.pdf" class="btn btn-primary" download>
+                            <i class="fa-solid fa-download" aria-hidden="true"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i> Contact Me
+                        </a>
+                    </div>
+                    <!-- Social quick links -->
+                    <div class="hero-socials">
+                        <a
+                            href="https://www.linkedin.com/in/ajay-jaiswar-43040a184/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn profile"
+                        >
+                            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                        <a href="mailto:jaiswarajaym@gmail.com" aria-label="Send an email">
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                        </a>
+                        <a href="tel:+918793630158" aria-label="Call phone number">
+                            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-photo reveal">
+                    <!-- Replace src with your professional profile photo -->
+                    <div class="photo-frame">
+                        <img
+                            src="ajay_profile.jpg"
+                            alt="Professional profile photo of Ajay Jaiswar"
+                            loading="eager"
+                            width="420"
+                            height="520"
+                        />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll down indicator -->
+            <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+                <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </a>
+        </section>
+
+        <!-- ============================================================
+             2. ABOUT ME
+        ============================================================= -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">Get To Know Me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <span class="section-underline"></span>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-content reveal">
+                        <h3 class="about-subheading">Professional Summary</h3>
+                        <p>
+                            I am a dedicated English Lecturer and Communication Skills Trainer
+                            with a strong commitment to academic excellence and student
+                            development. Over the years, I have cultivated an engaging,
+                            inclusive classroom environment where learners feel encouraged to
+                            explore language, literature, and ideas with confidence.
+                        </p>
+
+                        <h3 class="about-subheading">Teaching Philosophy</h3>
+                        <p>
+                            I believe education is not merely the transfer of knowledge, but
+                            the awakening of curiosity. My approach blends classic literary
+                            tradition with practical communication skills, empowering students
+                            to think critically, speak fluently, and write effectively for the
+                            modern world.
+                        </p>
+
+                        <h3 class="about-subheading">Hobbies &amp; Interests</h3>
+                        <p>
+                            Beyond the classroom, I enjoy
+                            <strong>reading books</strong>, <strong>exploring places and
+                            travelling</strong>, and <strong>socialising</strong> — activities
+                            that keep my perspective fresh and my passion for storytelling
+                            alive.
+                        </p>
+                    </div>
+
+                    <div class="about-side reveal">
+                        <!-- Experience stat -->
+                        <div class="stat-card">
+                            <i class="fa-solid fa-calendar-check stat-icon" aria-hidden="true"></i>
+                            <div>
+                                <span class="stat-number" data-count="8">0</span><span class="stat-plus">+</span>
+                                <p class="stat-label">Years of Experience</p>
+                            </div>
+                        </div>
+
+                        <h3 class="about-subheading">Areas of Expertise</h3>
+                        <ul class="expertise-list">
+                            <li><i class="fa-solid fa-book-open" aria-hidden="true"></i> English Literature</li>
+                            <li><i class="fa-solid fa-comments" aria-hidden="true"></i> Spoken English</li>
+                            <li><i class="fa-solid fa-briefcase" aria-hidden="true"></i> Business Communication</li>
+                            <li><i class="fa-solid fa-pen-nib" aria-hidden="true"></i> Grammar &amp; Writing Skills</li>
+                            <li><i class="fa-solid fa-microphone" aria-hidden="true"></i> Public Speaking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             3. EDUCATION (timeline)
+        ============================================================= -->
+        <section class="section section-alt" id="education">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">My Academic Background</span>
+                    <h2 class="section-title">Education</h2>
+                    <span class="section-underline"></span>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">Submitted: December 2025</span>
+                            <h3 class="timeline-title">Ph.D. Thesis Submission in Indian Writing in English</h3>
+                            <p class="timeline-place">Department of English, University of Mumbai</p>
+                            <p class="timeline-desc">
+                                Submitted doctoral thesis focused on Indian Writing in English.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">Completed</span>
+                            <h3 class="timeline-title">Bachelor of Education (B.Ed.)</h3>
+                            <p class="timeline-place">St. Xavier's Institute of Education, Mumbai</p>
+                            <p class="timeline-desc">
+                                Professional teacher training in pedagogy, assessment, and
+                                classroom methodology.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">Completed</span>
+                            <h3 class="timeline-title">Master of Arts (M.A.) in English Literature</h3>
+                            <p class="timeline-place">BAMU | Milind College of Arts, Science and Commerce</p>
+                            <p class="timeline-desc">
+                                Advanced study in English literature and critical interpretation.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">Completed</span>
+                            <h3 class="timeline-title">Bachelor of Arts (B.A.) in English Literature</h3>
+                            <p class="timeline-place">University of Mumbai | R.K. Talreja College of Arts, Science and Commerce, Ulhasnagar</p>
+                            <p class="timeline-desc">
+                                Foundation in language, literature, and communication studies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             4. TEACHING EXPERIENCE (timeline)
+        ============================================================= -->
+        <section class="section" id="experience">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">My Professional Journey</span>
+                    <h2 class="section-title">Teaching Experience</h2>
+                    <span class="section-underline"></span>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">Current</span>
+                            <h3 class="timeline-title">Assistant Professor</h3>
+                            <p class="timeline-place">New Horizon Institute of Technology and Management, Thane</p>
+                            <ul class="timeline-list">
+                                <li>Taught Communication Skills, Business Model Development, and Indian Knowledge System.</li>
+                                <li>Designed activity-based classroom sessions for engineering students.</li>
+                                <li>Guided students in presentation, interpersonal, and workplace communication.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">Previous Role</span>
+                            <h3 class="timeline-title">Assistant Professor</h3>
+                            <p class="timeline-place">Vivekanand Education Society Institute of Technology, Chembur</p>
+                            <ul class="timeline-list">
+                                <li>Taught Communication Skills and Universal Human Values.</li>
+                                <li>Conducted student mentoring and personality development sessions.</li>
+                                <li>Supported department-level academic planning and activities.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">Previous Role</span>
+                            <h3 class="timeline-title">Assistant Professor</h3>
+                            <p class="timeline-place">Don Bosco Institute of Technology, Vidyavihar, Mumbai</p>
+                            <ul class="timeline-list">
+                                <li>Taught Communication Skills to undergraduate engineering students.</li>
+                                <li>Improved writing, speaking, and interview readiness outcomes.</li>
+                                <li>Contributed to skill-based assessment and classroom discipline.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">Previous Role</span>
+                            <h3 class="timeline-title">Assistant Professor</h3>
+                            <p class="timeline-place">Shah &amp; Anchor Kutchhi Engineering College, Chembur</p>
+                            <ul class="timeline-list">
+                                <li>Taught Communication Skills with focus on professional communication.</li>
+                                <li>Mentored students for interviews, presentations, and workplace etiquette.</li>
+                                <li>Supported academic administration and student development activities.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             5. RESEARCH PUBLICATIONS
+        ============================================================= -->
+        <section class="section section-alt" id="publications">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">Research Work</span>
+                    <h2 class="section-title">Research Publications &amp; Paper Presentations</h2>
+                    <span class="section-underline"></span>
+                </div>
+
+                <div class="cards-grid">
+                    <article class="achievement-card reveal">
+                        <i class="fa-solid fa-file-lines card-icon" aria-hidden="true"></i>
+                        <h3 class="card-title">November 2025 | International Conference</h3>
+                        <p class="card-text">Published and presented: "The Conceptual Foundation for Examining the Relationship between Environmental Protection and Human Rights" at the one-day multidisciplinary conference on "Vasudhaiva Kutumbakam: The Ethical, Legal and Sustainable Fundamentals of a One Earth-One Family Approach."</p>
+                    </article>
+
+                    <article class="achievement-card reveal">
+                        <i class="fa-solid fa-file-lines card-icon" aria-hidden="true"></i>
+                        <h3 class="card-title">April 2025 | International Conference</h3>
+                        <p class="card-text">Published and presented: "A Study of Pain and Resistance in Vasant Moon's Autobiography Growing up Untouchable in India" at the conference "Bridging Worlds: Intersections of Language, Literature and Culture in a Globalized Context."</p>
+                    </article>
+
+                    <article class="achievement-card reveal">
+                        <i class="fa-solid fa-file-lines card-icon" aria-hidden="true"></i>
+                        <h3 class="card-title">February 2025 | International Conference</h3>
+                        <p class="card-text">Published and presented: "An Authentic Representation of Urmila Pawar's Existence of Suffering with reference to The Weave of My Life" at "Language, Literature and Social Science: New Approaches and Perspectives."</p>
+                    </article>
+
+                    <article class="achievement-card reveal">
+                        <i class="fa-solid fa-book-journal-whills card-icon" aria-hidden="true"></i>
+                        <h3 class="card-title">December 2024 | Scopus Journal</h3>
+                        <p class="card-text">Published in Communication and Management Journal: "The Representation of Trauma and Resistance with special reference to Manoranjan Byapari's Interrogating My Chandal Life." ISSN: 2269-7195.</p>
+                    </article>
+
+                    <article class="achievement-card reveal">
+                        <i class="fa-solid fa-book-journal-whills card-icon" aria-hidden="true"></i>
+                        <h3 class="card-title">June 2021 | UGC Care Journal</h3>
+                        <p class="card-text">Published: "An Authentic Representation of Pain and Resistance of the Downtrodden with special reference to Omprakash Valmiki's Joothan." ISSN: 0976-0822.</p>
+                    </article>
+
+                    <article class="achievement-card reveal">
+                        <i class="fa-solid fa-book-journal-whills card-icon" aria-hidden="true"></i>
+                        <h3 class="card-title">January 2021 | UGC Care Journal</h3>
+                        <p class="card-text">Published: "A Powerful Representation of Downtrodden Existence and Realities with special reference to Sharankumar Limbale's The Outcaste." ISSN: 0337-743X.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             6. SKILLS (animated progress bars)
+        ============================================================= -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">What I Bring</span>
+                    <h2 class="section-title">Skills</h2>
+                    <span class="section-underline"></span>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Each skill: data-progress sets the fill width -->
+                    <div class="skill-item reveal">
+                        <div class="skill-head">
+                            <span class="skill-name">English Literature</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar"><span class="skill-fill" data-progress="95"></span></div>
+                    </div>
+
+                    <div class="skill-item reveal">
+                        <div class="skill-head">
+                            <span class="skill-name">Grammar</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar"><span class="skill-fill" data-progress="95"></span></div>
+                    </div>
+
+                    <div class="skill-item reveal">
+                        <div class="skill-head">
+                            <span class="skill-name">Communication Skills</span>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-bar"><span class="skill-fill" data-progress="92"></span></div>
+                    </div>
+
+                    <div class="skill-item reveal">
+                        <div class="skill-head">
+                            <span class="skill-name">Public Speaking</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar"><span class="skill-fill" data-progress="90"></span></div>
+                    </div>
+
+                    <div class="skill-item reveal">
+                        <div class="skill-head">
+                            <span class="skill-name">Academic Writing</span>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill-bar"><span class="skill-fill" data-progress="88"></span></div>
+                    </div>
+
+                    <div class="skill-item reveal">
+                        <div class="skill-head">
+                            <span class="skill-name">Student Mentoring</span>
+                            <span class="skill-percent">93%</span>
+                        </div>
+                        <div class="skill-bar"><span class="skill-fill" data-progress="93"></span></div>
+                    </div>
+
+                    <div class="skill-item reveal">
+                        <div class="skill-head">
+                            <span class="skill-name">Curriculum Development</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar"><span class="skill-fill" data-progress="85"></span></div>
+                    </div>
+
+                    <div class="skill-item reveal">
+                        <div class="skill-head">
+                            <span class="skill-name">Classroom Management</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar"><span class="skill-fill" data-progress="90"></span></div>
+                    </div>
+                </div>
+
+                <!-- Strengths (standard professional strengths) -->
+                <div class="strengths reveal">
+                    <h3 class="about-subheading center">Core Strengths</h3>
+                    <div class="strengths-grid">
+                        <span class="strength-chip"><i class="fa-solid fa-check"></i> Strong Interpersonal Skills</span>
+                        <span class="strength-chip"><i class="fa-solid fa-check"></i> Adaptability</span>
+                        <span class="strength-chip"><i class="fa-solid fa-check"></i> Time Management</span>
+                        <span class="strength-chip"><i class="fa-solid fa-check"></i> Patience &amp; Empathy</span>
+                        <span class="strength-chip"><i class="fa-solid fa-check"></i> Leadership</span>
+                        <span class="strength-chip"><i class="fa-solid fa-check"></i> Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             7. TALKS & SEMINARS
+        ============================================================= -->
+        <section class="section" id="talks">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">Resource Person Engagements</span>
+                    <h2 class="section-title">Talks, Lectures &amp; Seminars</h2>
+                    <span class="section-underline"></span>
+                </div>
+
+                <div class="cards-grid">
+                    <article class="info-card reveal">
+                        <i class="fa-solid fa-microphone-lines card-icon" aria-hidden="true"></i>
+                        <h3 class="card-title">Employment and Corporate Skills</h3>
+                        <p class="card-text">Delivered one-week resource person sessions for postgraduate students at R.C. Patel's Institute of Management Research and Development, Shirpur.</p>
+                    </article>
+
+                    <article class="info-card reveal">
+                        <i class="fa-solid fa-people-group card-icon" aria-hidden="true"></i>
+                        <h3 class="card-title">Interpersonal Skills Session</h3>
+                        <p class="card-text">Delivered one-week resource person sessions for graduate students at Matoshri College of Engineering &amp; Research Centre, Nashik.</p>
+                    </article>
+
+                    <article class="info-card reveal">
+                        <i class="fa-solid fa-chalkboard-user card-icon" aria-hidden="true"></i>
+                        <h3 class="card-title">Soft Skills Training</h3>
+                        <p class="card-text">Delivered one-week soft-skills sessions as a resource person at Theem College of Engineering, Boisar.</p>
+                    </article>
+
+                    <article class="info-card reveal">
+                        <i class="fa-solid fa-person-chalkboard card-icon" aria-hidden="true"></i>
+                        <h3 class="card-title">Personality Development Program</h3>
+                        <p class="card-text">Delivered two-week personality development sessions for teaching faculty at Gurukul International School, Badlapur.</p>
+                    </article>
+
+                    <article class="info-card reveal">
+                        <i class="fa-solid fa-users-viewfinder card-icon" aria-hidden="true"></i>
+                        <h3 class="card-title">Workshop Participation</h3>
+                        <p class="card-text">Participated in "Understanding MLA 9th Edition" workshop (7 Feb 2022) conducted by V.G. Vaze College, Mumbai.</p>
+                    </article>
+
+                    <article class="info-card reveal">
+                        <i class="fa-solid fa-school card-icon" aria-hidden="true"></i>
+                        <h3 class="card-title">Academic Workshops &amp; Field Training</h3>
+                        <p class="card-text">Participated in Dissertation Writing workshop (10 Feb 2022), completed school internship at St. Joseph's High School (Wadala), and attended one-week rural academic camp in Gujarat.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             8. TESTIMONIALS
+        ============================================================= -->
+        <section class="section" id="testimonials">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">Kind Words</span>
+                    <h2 class="section-title">Testimonials</h2>
+                    <span class="section-underline"></span>
+                </div>
+
+                <div class="cards-grid testimonials-grid">
+                    <figure class="testimonial-card reveal">
+                        <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+                        <blockquote>
+                            Mr. Jaiswar transformed the way I approach English. His lectures are
+                            engaging and his guidance helped me speak with confidence.
+                        </blockquote>
+                        <figcaption class="testimonial-author">
+                            <span class="author-avatar">P</span>
+                            <span>
+                                <strong>Priya Sharma</strong>
+                                <small>Former Student</small>
+                            </span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="testimonial-card reveal">
+                        <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+                        <blockquote>
+                            A dedicated and inspiring colleague. His commitment to students and
+                            innovative teaching methods set a high standard for our department.
+                        </blockquote>
+                        <figcaption class="testimonial-author">
+                            <span class="author-avatar">R</span>
+                            <span>
+                                <strong>Dr. Rajesh Mehta</strong>
+                                <small>Colleague, Head of Department</small>
+                            </span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="testimonial-card reveal">
+                        <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+                        <blockquote>
+                            The communication skills training I received was life-changing. I now
+                            present and write professionally thanks to his mentorship.
+                        </blockquote>
+                        <figcaption class="testimonial-author">
+                            <span class="author-avatar">A</span>
+                            <span>
+                                <strong>Amit Verma</strong>
+                                <small>Working Professional</small>
+                            </span>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+               9. CONTACT SECTION
+        ============================================================= -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-eyebrow">Let's Connect</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <span class="section-underline"></span>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact details -->
+                    <div class="contact-info reveal">
+                        <h3 class="about-subheading">Contact Information</h3>
+                        <p class="contact-lead">
+                            Feel free to reach out for collaborations, training sessions,
+                            speaking engagements, or just a friendly conversation.
+                        </p>
+
+                        <ul class="contact-list">
+                            <li>
+                                <span class="contact-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span>
+                                <span>
+                                    <small>Email</small>
+                                    <a href="mailto:jaiswarajaym@gmail.com">jaiswarajaym@gmail.com</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></span>
+                                <span>
+                                    <small>Phone</small>
+                                    <a href="tel:+918793630158">+91 87936 30158</a> / <a href="tel:+919420070248">+91 94200 70248</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></span>
+                                <span>
+                                    <small>LinkedIn</small>
+                                    <a
+                                        href="https://www.linkedin.com/in/ajay-jaiswar-43040a184/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >linkedin.com/in/ajay-jaiswar</a>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span>
+                                <span>
+                                    <small>Location</small>
+                                    <a>Flat No.103, First Floor, Saraswati Apartments, Kolegaon, Dombivli East</a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact form (EmailJS) -->
+                    <form class="contact-form reveal" id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="from_name">Full Name</label>
+                            <input type="text" id="from_name" name="from_name" placeholder="Your name" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="reply_to">Email Address</label>
+                            <input type="email" id="reply_to" name="reply_to" placeholder="you@example.com" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="How can I help?" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+                        </div>
+
+                        <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                            <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> <span id="btn-text">Send Message</span>
+                        </button>
+
+                        <p class="form-success" id="form-status" role="status" hidden>
+                            Status message
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================================
+         10. FOOTER
+    ============================================================= -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="#hero" class="nav-logo footer-logo">
+                    <span class="logo-mark">AJ</span>
+                    <span class="logo-text">Ajay Jaiswar</span>
+                </a>
+                <p class="footer-tagline">
+                    English Lecturer, Educator &amp; Communication Skills Trainer dedicated to
+                    inspiring confident, capable learners.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#talks">Talks &amp; Seminars</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 class="footer-heading">Connect</h4>
+                <div class="footer-socials">
+                    <a
+                        href="https://www.linkedin.com/in/ajay-jaiswar-43040a184/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn"
+                    ><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:jaiswarajaym@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="tel:+918793630158" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Ajay Jaiswar. All Rights Reserved.</p>
+            <p class="footer-credit">Designed for Ajay Jaiswar</p>
+        </div>
+    </footer>
+
+    <!-- ===== BACK TO TOP BUTTON ===== -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
